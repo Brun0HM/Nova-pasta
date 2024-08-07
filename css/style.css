@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
-  background: #1e1e1e;
+  background: #161616;
 }
 
 .fullcontainer {
@@ -21,7 +23,7 @@ header {
   right: 0;
   z-index: 1000;
 
- background: #3D52D5;
+  background: linear-gradient(to bottom, #3d52d5, #000e6c00);
 }
 
 .container {
@@ -46,13 +48,13 @@ header {
   display: block;
   text-decoration: none;
   font-size: 17px;
-  font-weight: 700;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Roboto";
+  font-weight: bold;
   border-bottom: solid 3px transparent;
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #3D52D5;
+  border-color: #3d52d5;
 }
 
 .site-header-main {
@@ -74,4 +76,18 @@ header {
 .insta {
   text-decoration: none;
   color: #fff;
+}
+
+.sobre {
+  color: #fff;
+  margin: 160px;
+  max-width: 560px;
+  font-family: "Roboto";
+  font-weight: normal;
+}
+#sobre {
+  color: #3d52d5;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
 }
