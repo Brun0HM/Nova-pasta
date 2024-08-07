@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  background: #1e1e1e;
+}
+
+.fullcontainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+ background: #3D52D5;
+}
+
+.container {
+  max-width: 1073px;
+  margin: 0 auto;
+}
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin: 0;
+}
+
+.main-navigation a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-bottom: solid 3px transparent;
+}
+.main-navigation a:hover,
+.main-navigation a:focus {
+  border-color: #3D52D5;
+}
+
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+}
+
+.sec-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sec-menu ion-icon {
+  font-size: 25px;
+}
+
+.insta {
+  text-decoration: none;
+  color: #fff;
+}
